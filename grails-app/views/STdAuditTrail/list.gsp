@@ -3,9 +3,10 @@
 <!doctype html>
 <html>
 	<head>
-		<meta name="layout" content="main">
+		<meta name="layout" content="cygnus-forms">
 		<g:set var="entityName" value="${message(code: 'STdAuditTrail.label', default: 'STdAuditTrail')}" />
 		<title><g:message code="default.list.label" args="[entityName]" /></title>
+		<parameter name="pageEName" value="domainConfig" />
 	</head>
 	<body>
 		<a href="#list-STdAuditTrail" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
